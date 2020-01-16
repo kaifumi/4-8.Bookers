@@ -1,6 +1,33 @@
-.head-line{
-    margin-left: 20px;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.head-line {
+  margin-left: 20px;
 }
 .main-top {
   margin-left: 50px;
+}
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+th {
+  padding-bottom: 5px;
+  display: table-cell;
+  vertical-align: middle;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  
+}
+table td {
+  word-break : break-all;
 }
